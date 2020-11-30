@@ -22,15 +22,28 @@
 
     <!-- collegamenti al JS -->
 
-    <!-- JQUERY -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!-- VUE -->
     <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <!-- LINK TO AXIOS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.20.0/axios.min.js"></script>
     <!-- JS -->
     <script src="js/function.js" charset="utf-8"></script>
 
   </head>
   <body>
+
+    <div id="root">
+
+      <ul>
+        <li v-for="mail in mails"> {{mail}}</li>
+      </ul>
+
+    </div>
+
+
+
+
+
   <!-- JS -->
   <script src="js/script.js" charset="utf-8"></script>
   </body>
